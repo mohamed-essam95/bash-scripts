@@ -18,7 +18,7 @@ arr[1]="orange" # Modifying an element
 
  echo "${#arr[@]}" # Number of elements in the array
  echo "${arr[@]}" # All elements in the array
- # echo "${!arr[@]}" # Indices of the array
+ echo "${!arr[@]}" # Indices of the array
 
  for item in "${arr[@]}"; do
      echo "$item"
