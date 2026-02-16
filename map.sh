@@ -22,6 +22,6 @@ for key in "${!person[@]}"; do
 done
 
 echo ${#person[@]} # Number of key-value pairs
-unset person[city] # Removing a key-value pair from the associative array
+# unset person[city] # Removing a key-value pair from the associative array
 
 echo "${person[city]}" # Output: (empty, since the key 'city' has been removed)
