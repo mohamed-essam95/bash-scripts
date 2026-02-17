@@ -12,7 +12,7 @@ if [ ! -e "$file" ]; then
     exit 1
 fi
 
-echo "File Name: $(basename "$file")"
+echo "File Name: $file)"
 echo "File Type: $(file -b "$file")"
 echo "File Size: $(stat -c%s "$file") bytes"
 echo "Last Modified: $(stat -c%y "$file")"
